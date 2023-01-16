@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 /* :root {
   --bg-color: #fff;
@@ -33,12 +34,12 @@ a.back-to-top-btn {
   background: #ffcb46;
   font-size: 20px;
   box-shadow: 0px 5px 14px rgb(31 97 235 / 8%);
-  color: white;
+  color: black;
   border: 1px solid #343a40 !important;
 }
 
 a.back-to-top-btn:hover {
-  color: white;
+  color: black;
 }
 
 .video-bg-hero {
@@ -389,7 +390,7 @@ h1.sc-text-cstm-2 {
   line-height: 120px;
   font-size: 4rem;
   text-transform: uppercase;
-  transform: rotate(90deg);
+  transform: rotate(90deg) !important;
   position: absolute;
   right: 0px;
   top: 68px;
