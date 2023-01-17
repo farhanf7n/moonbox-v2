@@ -44,10 +44,12 @@ a.back-to-top-btn:hover {
 
 .video-bg-hero {
   position: relative;
+  height: 100vh;
 }
 
 .video-bg-hero video {
-  height: 100% !important;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .video-bg-hero .sc-text-cstm-2 {
@@ -189,6 +191,7 @@ h1.sc-text-cstm-2 {
 
 .vid-pro {
   padding: 120px 0px;
+  margin-top: 120px;
 }
 
 .read-btn {
