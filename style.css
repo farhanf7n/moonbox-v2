@@ -14,7 +14,7 @@ body {
 } */
 
 .header {
-  /* background: linear-gradient(to right, #8d47db 0%, #4180b8 50%, #06e072 100%); */
+  background: linear-gradient(to right, #8d47db 0%, #4180b8 50%, #06e072 100%);
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -44,7 +44,6 @@ a.back-to-top-btn:hover {
 
 .video-bg-hero {
   position: relative;
-  height: 100vh;
 }
 
 .video-bg-hero video {
@@ -191,7 +190,6 @@ h1.sc-text-cstm-2 {
 
 .vid-pro {
   padding: 120px 0px;
-  margin-top: 120px;
 }
 
 .read-btn {
@@ -811,7 +809,92 @@ footer ul.social li a svg {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1553px) {
+  .video-bg-hero .sc-text-cstm-2 h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .video-bg-hero .sc-text-cstm-2 {
+    bottom: 1%;
+  }
+
+  .video-bg-hero .sc-text-cstm-2 h2 {
+    font-size: 1.3rem;
+  }
+
+  .video-bg-hero .sc-text-cstm-2 p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .form-logo-lft a {
+    justify-content: unset;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .read-btm-mob {
+    bottom: -5rem !important;
+  }
+  .sec-main-heading {
+    font-size: 4rem;
+  }
+
+  .imgs-side {
+    column-gap: unset;
+    justify-content: space-between;
+  }
+
+  .col-sm-mt-3 {
+    margin-top: 3rem !important;
+  }
+
+  .col-sm-mt-4 {
+    margin-top: 4rem !important;
+  }
+
+  .col-sm-mt-5 {
+    margin-top: 5rem !important;
+  }
+
+  .col-sm-mt-6 {
+    margin-top: 6rem !important;
+  }
+
+  .col-sm-mt-7 {
+    margin-top: 7rem !important;
+  }
+
+  .col-sm-mb-3 {
+    margin-bottom: 3rem !important;
+  }
+
+  .sc-text-cstm-2 h2,
+  .sc-text-cstm-2 p {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .video-bg-hero .sc-text-cstm-2 h1 {
+    font-size: 2.5rem;
+  }
+
+  .sec-main-heading {
+    font-size: 2.5rem;
+  }
+
+  .header .row .col-lg-4 {
+    width: 30% !important;
+  }
+
+  .header .row .col-lg-8 {
+    width: 70% !important;
+  }
+
   .hero_right-part {
     margin-top: 33px;
   }
@@ -830,5 +913,24 @@ footer ul.social li a svg {
 
   .counter_sec .cb-heading {
     font-size: 33px;
+  }
+
+  .client-log {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .video-bg-hero .sc-text-cstm-2 h1 {
+    line-height: unset;
+    padding: 1rem 0.5rem;
+  }
+
+  .process-outer img {
+    display: none;
+  }
+  .process-outer {
+    gap: 1.5rem;
   }
 }

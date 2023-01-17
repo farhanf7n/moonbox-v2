@@ -17,6 +17,20 @@ var swiper = new Swiper(".mySwiper", {
     dynamicBullets: true,
     clickable: true,
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+    1300: {
+      slidesPerView: 4,
+    },
+  },
 });
 
 var TxtRotate = function (el, toRotate, period) {
